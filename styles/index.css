@@ -80,6 +80,9 @@ input{
 .completed{
     
     opacity: 0.8;
+
+    /*place the completed tasks at the botton*/
+    order: -1;
 }
 .completed>p{
     text-decoration: line-through;
